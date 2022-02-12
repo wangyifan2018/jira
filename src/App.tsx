@@ -1,4 +1,4 @@
-import { LoginScreen } from 'login';
+import { LoginScreen } from 'screens/login';
 import React from 'react';
 import './App.css';
 // import { ProjectListScreen } from 'screens/project-list';
