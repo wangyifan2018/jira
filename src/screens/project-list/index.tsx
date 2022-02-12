@@ -23,7 +23,7 @@ export const ProjectListScreen = ()=>{
             if (response.ok){
                 setList(await response.json());
             }
-        })
+        });
     }, [debounceParam])
 
     useMount(()=>{
@@ -31,7 +31,7 @@ export const ProjectListScreen = ()=>{
             if (response.ok){
                 setUsers(await response.json());
             }
-        })
+        });
     })
 
 
